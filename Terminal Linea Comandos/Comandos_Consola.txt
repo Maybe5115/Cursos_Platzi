@@ -3,3 +3,12 @@ cp "Nombre de archivo" "a que directorio quieres copiar/"
 mv "origen" "destino" (.. para directorio padre, . para directorio actual)
 
 rmdir "nombre del directorio"
+
+ls -t Fecha modificacion
+ls -x ordena por nombre, luego extension
+ls -X (mayuscula) ordena primero por extension luego por nombre
+ls -l muestra toda la información, usuario, grupo, permisos, tamaño, fecha y hora de creacion
+ls -lh misma información que "-l" pero el tamaño esta en KB Y MB
+ls -R muestra el contenido de los subdirectorios de manera recursiva
+ls -S ordena los resultados por el tamaño del archivo
+
