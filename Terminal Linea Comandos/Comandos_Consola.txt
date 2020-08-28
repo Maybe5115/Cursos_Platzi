@@ -1,0 +1,5 @@
+cp "Nombre de archivo" "a que directorio quieres copiar/"
+
+mv "origen" "destino" (.. para directorio padre, . para directorio actual)
+
+rmdir "nombre del directorio"
