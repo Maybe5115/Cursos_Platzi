@@ -12,3 +12,12 @@ ls -lh misma información que "-l" pero el tamaño esta en KB Y MB
 ls -R muestra el contenido de los subdirectorios de manera recursiva
 ls -S ordena los resultados por el tamaño del archivo
 
+cat muestra el archivo completo
+
+head muestra solo las primeras lineas del archivo.... head -n 5 muestra primeras 5 lineas
+
+tail, inverso de head
+
+grep "expresion que buscas" "archivo", grep -i (no mayusculas)
+
+sed 
