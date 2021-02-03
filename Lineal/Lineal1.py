@@ -6,3 +6,12 @@ negro = [0, 0, 0]
 
 print(len(negro+azul))
 print(negro+rojo)
+
+import numpy as np
+
+rojo = np.array(rojo)
+negro = np.array(negro)
+
+print(type(rojo))
+
+print(rojo + negro)
