@@ -1,17 +1,14 @@
 
-rojo = [255, 0, 0]
-verde = [0, 255, 0]
-azul = [0, 0, 255]
-negro = [0, 0, 0]
-
-print(len(negro+azul))
-print(negro+rojo)
-
 import numpy as np
 
-rojo = np.array(rojo)
-negro = np.array(negro)
 
-print(type(rojo))
+a = np.array([1, 0, 0, 0])
+b = np.array([0, 1, 0, 0])
 
-print(rojo + negro)
+print(np.dot(a,b))
+print(a.T@b)
+
+def p(x):
+    return  np.array([1,2])@np.array([1,x])
+
+print(p(5))
